@@ -214,32 +214,224 @@ Dado que la corriente es total es de cero, la impedancia total del circuito LC e
 
 ![image](https://user-images.githubusercontent.com/94011974/187471312-5cfc8511-1f56-49e0-898c-d4bb4026fa15.png)
 
+26. Encuentre la impedancia total para cada circuito de la figura 17.65
 
+a)
 
+Z1=[R*XC/(R^2+XC^2) ^1/2]<-arctan(R/XC)
 
+Z1=[220*150/(220^2+150^2) ^1/2]<-arctan(220/150)
 
+Z1=123.93<-55.71°
 
+Forma rectangular
 
+Z1=Z1cosθ+jZ1senθ
 
+Z1=69.81-j102.39Ω
 
+Z=XL+Z1
 
+Z=100Ω+ (69.81-j102.39Ω)
 
+Z=169.81Ω-j102.39Ω
 
+b)
 
+Z1=[R*XC/(R^2+XC^2) ^1/2]<-arctan(R/XC)
 
+Z1=[12000*10000/(12000^2+10000^2) ^1/2]<-arctan(12000/10000)
 
+Z1=7682.21<-50.19°
 
+Forma rectangular
 
+Z1=Z1cosθ+jZ1senθ
 
+Z1=4918.5-j5901.25Ω
 
+Z=XL+Z1
 
+Z=-j8000Ω+ (4918.5-j5901.25Ω)
 
+Z=4918.5-j13901.25Ω
 
+![image](https://user-images.githubusercontent.com/94011974/187474923-9108266b-da57-4071-9964-c5fe0d4701a1.png)
 
+28. Determine el voltaje entre las terminales de cada elemento mostrado en la figura 17-66, y expréselo en forma polar.
 
+XL=2πfL=2π(2k Hz)(1.5 H)=18.9 kΩ
 
+XC=1/2πfC=1/2π(2k Hz)(0.0047µF)=16.9 kΩ
 
+Z1=[R*XC/(R^2+XC^2) ^1/2]<-arctan(R/XC)
 
+Z1=[33k*18.9k/(33k^2+18.9k^2) ^1/2]<-arctan(33k/18.9k)
+
+Z1=16.4 kΩ <-60.2°
+
+Forma rectangular
+
+Z1=Z1cosθ+jZ1senθ
+
+Z1=8.2kΩ-j14.23kΩ
+
+Z2=R2+Jxc= 22kΩ+j16.9kΩ
+
+Forma polar
+
+Z2=27.7<37.53°
+
+ZT=8.2kΩ-j14.23kΩ +( 22kΩ+j16.9kΩ)= 30.2kΩ + j 2.67 kΩ
+
+Forma polar
+
+ZT=30.3kΩ<50.1°
+
+VC=(Z2/ZT)VS
+
+VC=10970.3 kΩ<-12.57
+
+VL=6.5<-110.3°
+
+![image](https://user-images.githubusercontent.com/94011974/187475085-5ecdce3d-b0eb-4a3b-a94a-5a22e6eea44c.png)
+
+30. ¿Cuál es la corriente a través de R2 en la figura 17-67?
+
+XL=2πfL=2π(0.06k Hz)(390 mH)=147 kΩ
+
+XC=1/2πfC=1/2π(0.06k Hz)(47µF)=0.056 kΩ
+
+Z1=[R*XC/(R^2+XC^2) ^1/2]<-arctan(R/XC)
+
+Z1=[100*147 k/(100^2+147 k^2) ^1/2]<-arctan(100/147k)
+
+Z1=100 Ω <-0.04°
+
+Forma rectangular
+
+Z1=Z1cosθ+jZ1senθ
+
+Z1=100Ω-j0.07Ω
+
+Z2=R2+Jxc= 100Ω+j56Ω
+
+Forma polar
+
+Z2=114.6Ω<29.2°
+
+ZT=114.6Ω<29.2°+( 100Ω-j0.07Ω)= 200 Ω + j 55.93 Ω
+
+Forma polar
+
+ZT=207.6Ω<156°
+
+IR2=(RT/R2)I2=0.27 A
+
+![image](https://user-images.githubusercontent.com/94011974/187475212-c8113a07-d68a-4cc6-93b9-11d77a072e4a.png)
+
+*32. Determine la resistencia y la reactancia totales en la figura 17-68.
+
+XT=1/(1/5k) +(1/10k) = 3.33 k Ω
+
+Z=(10k)(3.33 k)/[10k^2+33k^2]^1/2<arctan(10k/3.33k)=3.16kΩ<71.6°
+
+RT=3.16kΩcos(71.6)= 997Ω
+
+XT=3.16kΩsen(71.6)=3kΩ
+
+![image](https://user-images.githubusercontent.com/94011974/187475300-7ff2e5e2-c7a7-4b8d-9f26-bd2a1423be7f.png)
+
+34. Determine si existe un valor de C que hará Vab=0 V en la figura 17-69. Si no lo hay, explique la razón.
+
+Vab=0 V
+
+Va=Vb
+
+XL1=2π(3k Hz)(12 mH)
+
+XL1=226Ω
+
+XL1=2π(3k Hz)(8 mH)
+
+XL1=151Ω
+
+Va=VL1=226Ω/[(180^2+226^2)^1/2] 12V=9.38V
+
+* 36. ¿Cuántas frecuencias resonantes hay en el circuito de la figura 17-70 ¿Por qué?
+Hay dos frecuencias resonantes en el circuito ya que, se necesita calcular la frecuencia resonante paralela y en serie.
+
+![image](https://user-images.githubusercontent.com/94011974/187475651-4135923f-36f8-4953-bce6-077ce3538dfe.png)
+
+* 38. Diseñe una red resonante en paralelo usando una sola bobina y capacitores seleccionables mediante un interruptor para producir las siguientes frecuencias resonantes: 8 MHz, 9 MHz, 10 MHz, y 11 MHz. Suponga una bobina de 10 mH con resistencia de devanado de 5 Ω.
+
+C1=1/4π^2(8 MHz)^2(10µH)=40 Pf
+
+C2=1/4π^2(9 MHz)^2(10µH)=31 pF
+
+C3=1/4π^2(10 MHz)^2(10µH)=25 pF
+
+C4=1/4π^2(11 MHz)^2(10µH)=21 pF
+
+![image](https://user-images.githubusercontent.com/94011974/187475751-9cc15b81-05d4-4c74-b385-09d1c5239377.png)
+
+PARTE 4: TEMAS ESPECIALES 
+
+SECCIÓN 17–8 Ancho de banda de circuitos resonantes
+
+40. Si la frecuencia crítica baja es de 2400 Hz y la frecuencia crítica alta es de 2800 Hz, ¿cuál es el ancho de banda? ¿Cuál es la frecuencia resonante?
+
+AB=2800 Hz- 2400 Hz=4000 Hz
+
+Fr=(AB/2)(4000 Hz/2)=2600 Hz
+
+* 42. En un circuito tanque, ¿qué valores de L y C deberán utilizarse para obtener una frecuencia resonante de 8 kHz? El ancho de banda debe ser de 800 Hz. La resistencia de devanado del circuito es de 10 Ω.
+
+C=1/2πfrXc
+
+C=1/2π(8k Hz)(10Ω)
+
+C=1.98µF
+
+C=1/fr^2C(4π^2+0.025)
+
+C=1/(8k Hz)^2(1.98µF) (4π^2+0.025)
+
+L=199µH
+
+SECCIÓN 18–1 Filtros pasabajas
+
+2. Un filtro pasabajas tiene frecuencia crítica de 3 kHz. Determine a cuáles de las siguientes frecuencias se les permite pasar y cuáles son rechazadas:
+
+(a) 100 Hz Permite 
+
+(b) 1 kHz Permite
+
+(c) 2 kHz Permite
+
+(d) 3 kHz Permite
+
+(e) 5 kHz Rechaza
+
+4. ¿Cuál es fc para cada filtro mostrado en la figura 18-38? Determine el voltaje de salida a fc en cada caso cuando Vent=5V
+
+![image](https://user-images.githubusercontent.com/94011974/187475903-a4f71a3d-51f7-4bb5-8ad8-8511ef264d3f.png)
+
+a)
+
+fc=1/2ΠRC=1/2π(100Ω)(10µF=0.16 k Hz
+
+b)
+
+fc=1/2ΠRC=1/2π(47Ω)(8.2 µF=0.41 k Hz
+
+c)
+
+fc=1/2ΠRC=1/2π(330Ω)(5 mF=96.45 m Hz
+
+d)
+
+fc=1/2ΠRC=1/2π(10Ω)(80µF)=0.20k Hz
 
 6 Determine la frecuencia crítica en cada una de las posiciones del interruptor en la red de filtros conmutados de la figura 18-40.
 
